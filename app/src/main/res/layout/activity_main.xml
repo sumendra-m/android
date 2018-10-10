@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgnormal">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="750px"
+        android:layout_height="105px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp"
+        android:background="@drawable/signinnormal" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="750px"
+        android:layout_height="105px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/facebook" />
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="512px"
+        android:layout_height="112px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:background="@drawable/newaccount" />
+
+</RelativeLayout>

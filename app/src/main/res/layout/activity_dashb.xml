@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bgdashboard"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="134dp">
+
+        <Button
+            android:id="@+id/performance"
+            android:layout_width="251dp"
+            android:layout_height="113dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/performance"></Button>
+
+
+        <Button
+            android:id="@+id/whostage"
+            android:layout_width="251dp"
+            android:layout_height="113dp"
+            android:layout_below="@+id/performance"
+            android:background="@drawable/whostage" />
+
+
+        <Button
+            android:id="@+id/calculator"
+            android:layout_width="251dp"
+            android:layout_height="113dp"
+            android:layout_below="@+id/whostage"
+            android:background="@drawable/calculator" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

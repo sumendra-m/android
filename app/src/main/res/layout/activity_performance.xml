@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/performancemeter">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="80dp">
+
+            <LinearLayout
+                android:id="@+id/lay0"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lay2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-247dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age: "
+                    android:textSize="8pt"></TextView>
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" />
+
+                <EditText
+                    android:id="@+id/age"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:hint="1 - 100"
+                    android:inputType="number"
+                    android:textAlignment="center"></EditText>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay2"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter your First CD4:"
+                    android:textSize="8pt"></TextView>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="30dp" />
+
+                <EditText
+                    android:id="@+id/cdfirst"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:hint="1 - 2000"
+                    android:inputType="number"
+                    android:textAlignment="center"></EditText>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lay2"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="247dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duration of ART:"
+                    android:textSize="8pt"></TextView>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="30dp" />
+
+                <EditText
+                    android:id="@+id/duration"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:hint=" in months"
+                    android:inputType="number"
+                    android:textAlignment="center"></EditText>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lay3"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/lay4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WHO Stage:"
+                    android:textSize="8pt"></TextView>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+
+
+                <EditText
+                    android:id="@+id/whoStage"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:hint="1 - 4"
+                    android:inputType="number"
+                    android:textAlignment="center"></EditText>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay4"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay1"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter your final CD4:"
+                    android:textSize="8pt" />
+
+                <Space
+                    android:layout_width="1dp"
+                    android:layout_height="30dp" />
+
+                <EditText
+                    android:id="@+id/cdfinal"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:hint="1 - 2000"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay5"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/lay3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No. of CD4 test:"
+                    android:textSize="8pt" />
+
+
+                <EditText
+                    android:id="@+id/totaltest"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:hint="1 - 50"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="168dp"
+            android:layout_height="58dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="26dp"
+            android:background="@drawable/btnformsubmit" />
+    </RelativeLayout>
+</RelativeLayout>
